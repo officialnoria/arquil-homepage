@@ -1,0 +1,38 @@
+.transformation-container {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.transformation-box {
+	width: 80%;
+	max-width: 1200px;
+	text-align: center;
+}
+
+.transformation-title {
+	font-size: 2em;
+	font-weight: 400;
+}
+
+.transformation-subtitle {
+	font-size: 1.5em;
+	margin: 20px 0;
+	width: 70%;
+	font-weight: 200;
+}
+
+.transformation-desarrollo {
+	color: #4367A3;
+	font-size: 2em;
+	font-weight: 500;
+}
+
+@media screen and (max-width: 480px) {
+	.transformation-title {
+		font-size: 1.5em;
+	}
+
+	.transformation-subtitle {
+		font-size: 1em;
+	}
+}

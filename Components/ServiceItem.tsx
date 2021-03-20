@@ -12,11 +12,11 @@ const ServiceItem = ({ image, title, subtitle }: Props) => (
     <Box>
       <Image w="400px" src="https://itworkswilmington.com/wp-content/uploads/2018/02/virtual-workspaces.jpg" alt="work" />
     </Box>
-    <Box className='service-item-container'>
-      <Box className='service-item-title'>
+    <Box className="service-item-container">
+      <Box className="service-item-title">
         <Text fontSize={'3xl'}>{title}</Text>
       </Box>
-      <Text align={'justify'} width={'100%'} fontSize='1.2em' fontWeight='200'>
+      <Text align={'justify'} width={'100%'} fontSize="1.2em" fontWeight="200">
         {subtitle}
       </Text>
     </Box>

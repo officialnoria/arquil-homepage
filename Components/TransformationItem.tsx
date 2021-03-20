@@ -4,7 +4,7 @@ import { FcGlobe } from 'react-icons/fc';
 
 const TransformationItem = ({ title, icon }) => {
   return (
-    <Box w="100px" h='130px'  m='0 25px'>
+    <Box w="100px" h="130px" m="0 25px">
       <Box position="relative">
         <Icon as={FcGlobe} boxSize="100px" />
         <Box position="absolute" top="50%" left="50%" style={{ transform: 'translate(-50%, -50%)' }}>

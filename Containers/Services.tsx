@@ -16,7 +16,9 @@ const Services = () => {
   return (
     <Center boxSize="100%">
       <Box w="80%" maxW="1200px" textAlign="center" m={'50px 0'}>
-        <Text color='#4367A3' fontSize="4xl" fontWeight='500' mb='30px'>Servicios</Text>
+        <Text color="#4367A3" fontSize="4xl" fontWeight="500" mb="30px">
+          Servicios
+        </Text>
         {services.map((s) => (
           <ServiceItem {...s} key={nanoid()} />
         ))}

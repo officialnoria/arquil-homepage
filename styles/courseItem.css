@@ -1,25 +1,25 @@
 .course-item-container {
-	width: 40%;
-	margin: 30px 0;
+  width: 40%;
+  margin: 30px 0;
 }
 
 .course-item-title {
-	font-size: 1.5em;
-	color: #4367A3;
+  font-size: 1.5em;
+  color: #4367a3;
 }
 
 .course-item-image-container {
-	margin: 20px 0;
+  margin: 20px 0;
 }
 
 .course-item-text {
-	font-size: 1em;
-	font-weight: 200;
-	text-align: justify;
+  font-size: 1em;
+  font-weight: 200;
+  text-align: justify;
 }
 
 @media screen and (max-width: 480px) {
-	.course-item-container {
-		width: 80%;
-	}
+  .course-item-container {
+    width: 80%;
+  }
 }

@@ -79,15 +79,15 @@ const courses = [
 function Courses() {
   return (
     <Center boxSize={'100%'}>
-      <Box className='courses-container'>
-        <Text className='courses-title'>Cursos</Text>
-        <Flex className='courses-container-2'>
-          <Box className='courses-image-container'>
+      <Box className="courses-container">
+        <Text className="courses-title">Cursos</Text>
+        <Flex className="courses-container-2">
+          <Box className="courses-image-container">
             <Image src="https://previews.123rf.com/images/gmast3r/gmast3r1608/gmast3r160800274/60632510-casual-business-people-group-presentation-flip-chart-finance-businesspeople-team-training-conference.jpg" />
           </Box>
-          <Box className='courses-box'>
-            <Text className='courses-box-title'>Aprende</Text>
-            <Text className='courses-box-content'>
+          <Box className="courses-box">
+            <Text className="courses-box-title">Aprende</Text>
+            <Text className="courses-box-content">
               Et iure ipsam dicta mollitia ex architecto ducimus ratione. Iusto sed hic sequi non vel architecto. Earum ut nisi facilis ex aut
               voluptate blanditiis.
             </Text>

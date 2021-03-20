@@ -3,7 +3,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <Center className="header-container">
+    <Center className="header-container" id='home'>
       <Box className="header-content-box">
         <Text className="header-content-title">Transformación digital</Text>
         <Text className="header-content-subtitle">Software eficientes</Text>

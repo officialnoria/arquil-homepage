@@ -78,7 +78,7 @@ const courses = [
 
 function Courses() {
   return (
-    <Center boxSize={'100%'}>
+    <Center boxSize={'100%'} id='cursos'>
       <Box className="courses-container">
         <Text className="courses-title">Cursos</Text>
         <Flex className="courses-container-2">
